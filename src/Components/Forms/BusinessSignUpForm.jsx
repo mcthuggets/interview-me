@@ -43,7 +43,7 @@ export default function BusinessSignUpForm() {
                 </div>
                 
                 <div>
-                    <input type="text" placeholder='f name' className=' placeholder:text-cool-gray-400 placeholder:text-sm placeholder:leading-5 placeholder:font-normal rounded border-2 border-gray-500 w-full p-3 mb-2' 
+                    <input type="text" placeholder='Placeholder' className=' placeholder:text-cool-gray-400 placeholder:text-sm placeholder:leading-5 placeholder:font-normal rounded border-2 border-gray-500 w-full p-3 mb-2' 
                             onChange={ (event) => { firstName =  event.target.value } }></input>
                 </div>
                 
