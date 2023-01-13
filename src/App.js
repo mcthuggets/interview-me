@@ -7,12 +7,18 @@ function App() {
   return (
     <>
 
-      <div className='container'>
+      <div className=" bg-auto bg-no-repeat bg-right bg-[url('./images/banner.png')] ">
 
+      <div className='container'>
         <div>
-          <BusinessSignUpForm />
-        </div>      
-  
+            <BusinessSignUpForm />
+          </div>      
+    
+          <div>
+            <Banner />
+          </div>
+      </div>
+
       </div>
 
     </>
